@@ -1,7 +1,7 @@
 var inquirer = require('inquirer'),
  fs = require('fs'),
  basicCard = require('./constructors/basicCard'),
- cloze = require('./clozeCard'),
+ cloze = require('./constructors/clozeCard'),
  basicJson = require('./basicQuestions.json'),
  colors = require('colors'),
  points = 0
@@ -34,13 +34,13 @@ function askQuestion(initialScore, cardArray, currentIndex){
 	}]).then(function(answer){
 		if(answer.text.trim().toLowerCase() === card.back.trim().toLowerCase()){
 			initialScore++;
-			console.log("**************************************************************");
+			console.log("**************************************************************".rainbow);
 			console.log("Thats correct! Your score went up to ".rainbow + initialScore);
-			console.log("**************************************************************");
+			console.log("**************************************************************".rainbow);
 		} else {
-			console.log("***************************************************************");
-			console.log("That is incorrect, The correct answer is: ".inverse + card.back);
-			console.log("***************************************************************");
+			console.log("***************************************************************".red);
+			console.log("That is incorrect, The correct answer is: ".red + card.back.red);
+			console.log("***************************************************************".red);
 		}
 		currentIndex++;
 		console.log("index = "+ currentIndex);
@@ -54,18 +54,18 @@ function askQuestion(initialScore, cardArray, currentIndex){
 }
 
 function endGame (initialScore){
-	console.log("**************************************************************");
+	console.log("**************************************************************".green);
 	console.log("Great Job, Game Over! Your score is: ".green + initialScore);
-	console.log("**************************************************************");
+	console.log("**************************************************************".green);
 	inquirer.prompt([{
 	 type: 'input',
 	 name: 'text',
-	 message: "\nDo you want to play again? Yes or No?"
+	 message: "\nDo you want to play again? Yes or No?".inverse
 	}]).then(function(answer){
-		if (answer === "yes"){
+		if (answer.text === "yes"){
 			startGame();
 		} else {
-			console.log("Thanks for playing!");
+			console.log("Thanks for playing!".blue);
 		}
 	});
 }

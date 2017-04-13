@@ -1,22 +1,22 @@
 [
     {
-      "front": ".... was the year that SQL was created?",
+      "front": "What was the year that SQL was created?",
       "back": "1986"
     },
     {
-      "front": "Brendan .... was the name of the person who created Javascript?",
-      "back": "Eich"
+      "front": "What is the name of the person who created Javascript?",
+      "back": "Brendan Eich"
     },
     {
-      "front": ".... Was the year that Javascript was created?",
+      "front": "What year was Javascript created?",
       "back": "1995"
     },
     {
-      "front": "....  was the original name of Javascript?",
+      "front": "What  was the original name of Javascript?",
       "back": "Mocha"
     },
     {
-      "front": ".... days was the amount of time it took to create Javascript?",
+      "front": "How many days did it take to create Javascript?",
       "back": "10"
     }
   

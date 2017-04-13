@@ -64,10 +64,10 @@ function endGame (initialScore){
 	 name: 'text',
 	 message: "\nDo you want to play again? Yes or No?".inverse
 	}]).then(function(answer) {
-		if (answer === "yes"){
-			console.log("StartGame!! Answer these Questions.");
+		if (answer.text === "yes"){
+			console.log("StartGame!! Answer these Questions.".green);
 			startGame();
 		} 
-		console.log("Thanks for playing!".orange);	
+		console.log("Thanks for playing!".blue);	
 	});
 }
