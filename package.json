@@ -1,0 +1,23 @@
+{
+  "name": "flashcard_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "flashcard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glenturner/Flashcard-Generator.git"
+  },
+  "author": "Glen Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glenturner/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/glenturner/Flashcard-Generator#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "inquirer": "^3.0.6"
+  }
+}

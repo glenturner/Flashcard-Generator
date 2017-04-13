@@ -1,0 +1,23 @@
+[
+    {
+      "front": ".... was the year that SQL was created?",
+      "back": "1986"
+    },
+    {
+      "front": "Brendan .... was the name of the person who created Javascript?",
+      "back": "Eich"
+    },
+    {
+      "front": ".... Was the year that Javascript was created?",
+      "back": "1995"
+    },
+    {
+      "front": "....  was the original name of Javascript?",
+      "back": "Mocha"
+    },
+    {
+      "front": ".... days was the amount of time it took to create Javascript?",
+      "back": "10"
+    }
+  
+]

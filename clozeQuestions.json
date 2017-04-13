@@ -1,0 +1,23 @@
+[
+    {
+      "partial": "1986 was the year that SQL was created?",
+      "cloze": "1986"
+    },
+    {
+      "partial": "Brendan Eich was the name of the person who created Javascript?",
+      "cloze": "Eich"
+    },
+    {
+      "partial": "1995 was the year that Javascript was created?",
+      "cloze": "1995"
+    },
+    {
+      "partial": "Mocha  was the original name of Javascript?",
+      "cloze": "Mocha"
+    },
+    {
+      "partial": "10 days was the amount of time it took to create Javascript?",
+      "cloze": "10"
+    }
+  
+]
